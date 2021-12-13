@@ -35,6 +35,8 @@ namespace SendToMultiTool
             CreateShortcut("Fixed Key Table AES Encrypt", $"{appPath}", "AESENC");
             CreateShortcut("Fixed Key Table AES Decrypt", $"{appPath}", "AESDEC");
             CreateShortcut("Wipe Content", $"{appPath}", "WIPE");
+            CreateShortcut("Extract KD Payload", $"{appPath}", "KDDEC");
+            CreateShortcut("Pack Payload to KD", $"{appPath}", "KDENC");
         }
     }
 }

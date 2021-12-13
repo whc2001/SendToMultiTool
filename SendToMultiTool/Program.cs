@@ -53,6 +53,12 @@ namespace SendToMultiTool
                     case "WIPE":
                         newContent = new byte[0];
                         break;
+                    case "KDENC":
+                        newContent = KData.Encode(content);
+                        break;
+                    case "KDDEC":
+                        newContent = KData.Decode(content);
+                        break;
                     default:
                         throw new InvalidOperationException($"不支持的方法: {mode}");
                 }

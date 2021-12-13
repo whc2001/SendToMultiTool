@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="AddToSendTo.cs" />
     <Compile Include="Crc32.cs" />
+    <Compile Include="KData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FixedKeyAes.cs" />
